@@ -10,17 +10,20 @@ namespace Tutorial
     {
         static void Main(string[] args)
         {
-            int first = 0;
-            int second = 0;
-            //delet |
-            //      V
-            first = 3;
-            second = 1;
-            Console.WriteLine("Variables: 1");
-            //first = Convert.ToInt32(Console.ReadLine());
-            Console.Clear();
-            first:
-            switch (second)
+            #region Létrehozás
+            int A5 = 0;
+            int A6 = 0;
+            int A7 = 0;
+            int A8 = 0;
+            int A9 = 0;
+            int S0 = 0;
+            int S1 = 0;
+            int S2 = 0;
+            int S3 = 0;
+            int S4 = 0;
+            #endregion
+            S1 = Convert.ToInt32(Console.ReadLine());
+            switch (S1)
             {
                 case 1:
                     Console.WriteLine("Bool: 1");
@@ -38,9 +41,8 @@ namespace Tutorial
                     Console.WriteLine("Uint: 13");
                     Console.WriteLine("Ulong: 14");
                     Console.WriteLine("Ushort: 15");
-                //second = Convert.ToInt32(Console.ReadLine());
-                second:
-                    switch (first)
+                    S0 = Convert.ToInt32(Console.ReadLine());
+                    switch (S0)
                     {
                         case 1://Bool
                             Console.Clear();
