@@ -35,9 +35,9 @@ namespace Tutorial
                     Console.Clear();
                     Console.WriteLine("-C#-");
                     Console.WriteLine("--Változók--");
-                    Console.WriteLine("Logical: 1");
-                    Console.WriteLine("Numeral: 2");
-                    Console.WriteLine("Betűs: 3");
+                    Console.WriteLine("Logikai: 1");
+                    Console.WriteLine("Szám: 2");
+                    Console.WriteLine("Karakteres: 3");
                     Console.WriteLine("Vissza lépés: 0");
                     S0 = Convert.ToInt32(Console.ReadLine());
                     switch (S0)
